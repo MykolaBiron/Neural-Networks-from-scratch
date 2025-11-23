@@ -1,5 +1,5 @@
 import numpy as np
-from BaseLayer import BaseLayer
+from .BaseLayer import BaseLayer
 
 class ActivationLayer(BaseLayer):
     def __init__(self, activation, activation_prime):

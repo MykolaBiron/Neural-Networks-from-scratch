@@ -1,5 +1,5 @@
 import numpy as np
-from ActivationLayer import ActivationLayer
+from .ActivationLayer import ActivationLayer
 
 class Tanh(ActivationLayer):
     def __init__(self):
